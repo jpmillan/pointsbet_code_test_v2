@@ -24,7 +24,7 @@ namespace PointsBet_Backend_Online_Code_Test
             StringBuilder result = new StringBuilder($"{quote}{items[0]}{quote}");
             for (int i = 1; i < items.Length; i++)
             {
-                result.Append(string.Format(", {0}{1}{0}", quote, items[i]));
+                result.Append($", {quote}{items[i]}{quote}");
             }
             return result.ToString();
         }
