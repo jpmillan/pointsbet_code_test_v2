@@ -26,7 +26,7 @@ namespace PointsBet_Backend_Online_Code_Test
             {
                 result.Append(string.Format(", {0}{1}{0}", quote, items[i]));
             }
-            return qry.ToString();
+            return result.ToString();
         }
     }
 }
